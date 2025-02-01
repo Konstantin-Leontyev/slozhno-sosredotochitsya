@@ -13,12 +13,13 @@
   grid-template-rows: 1fr auto 1fr;
   min-block-size: 100vh;
   padding: var(--indent, 10px);
+  background:  var(--cover-image-tablet) no-repeat center / cover;
+  background-attachment: fixed;
 }
 
 @media (width >= 768px) {
   .header {
     --indent: 20px;
-    background:  var(--cover-image-tablet) no-repeat center / cover;
   }
 }
 
@@ -62,24 +63,22 @@
   inset-block-start: var(--indent, 10px);
   inset-inline-end: var(--indent, 10px);
   line-height: 25px;
-  margin-inline-end: var(--indent, 10px);
+  margin-inline-end: 10px;
   position: absolute;
 }
 
-@media (width < 768px) {
-  .rec::before {
-    content: "REC";
-  }
-  
-  .rec::after {
-    background-color: currentColor;
-    content: "";
-    block-size: var(--indent, 10px);
-    inline-size: var(--indent, 10px);
-    border-radius: 50%;
-    margin-inline-start: var(--indent, 10px);
-    box-shadow: 0 0 4px 2px currentColor;
-  }
+.rec::before {
+  content: "REC";
+}
+
+.rec::after {
+  background-color: currentColor;
+  content: "";
+  block-size: 10px;
+  inline-size: 10px;
+  border-radius: 50%;
+  margin-inline-start: 10px;
+  box-shadow: 0 0 4px 2px currentColor;
 }
 
 .header__theme-menu {
