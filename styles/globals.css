@@ -31,15 +31,35 @@ picture {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
 a,
 button {
-  outline: none;
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
 }
 
-a {
-  text-shadow: 2px 2px 0 var(--accent-color);
+a:focus,
+button:focus {
+  outline: none;
+}
+
+a:focus-visible,
+button:hover {
+  outline: 1px solid currentColor;
+  padding: 2px;
+}
+
+a:hover,
+button:focus-visible {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: var(--text-underline-hover-color);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
