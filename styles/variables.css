@@ -1,4 +1,19 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root { 
+  /* colors */
+  --bg-color:  #000028;
+  --inverse-color: #DB00FF;
+  --title-color: #FF0070;
+  --text-color:#F1B2CE;
+  --accent-color: #FF0070;
+  --decor-title-color: #000028; 
+  --decor-zone-color: #FF0070;
+  /* decor element settings */
+  --decor-element-size: 25px;
+  --decor-element-border: 1px solid currentColor;
+  /* margin, padding and screen size settings */
+  --indent: 10px;
+  --page-block-margin: 40px;
+  /* background image links */
+  --cover-image-tablet: url(../images/cover-image-dark.png);
+  --cover-image-desktop: url(../images/cover-image.png);
+}
