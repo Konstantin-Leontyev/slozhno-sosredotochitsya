@@ -1,9 +1,12 @@
 .page.theme_dark {
-  --bg-color:  #000028;
-  --inverse-color: #DB00FF;
-  --title-color: #000028;
+  --bg-color:#000028;
+  --inverse-color:#DB00FF;
+  --title-color:#FF0070;
   --text-color:#F1B2CE;
-  --accent-color: #FF0070;
-  --decor-title-color: #000028; 
-  --decor-zone-color: #FF0070;
+  --accent-color:#FF0070;
+  --decor-title-color:#000028; 
+  --decor-zone-color:#FF0070;
+  /* background image links */
+  --cover-image: url(../images/cover-image-dark.png);
+  --cover-image-desktop: url(../images/cover-image.png);
 }

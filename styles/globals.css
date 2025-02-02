@@ -49,17 +49,17 @@ button:focus {
   outline: none;
 }
 
-a:focus-visible,
-button:hover {
+a:focus-visible {
   outline: 1px solid currentColor;
+  padding: 2px;
+}
+
+button:hover {
+  outline: 1px solid color-mix(in srgb, currentColor 60%, transparent);
   padding: 2px;
 }
 
 a:hover,
 button:focus-visible {
-  cursor: pointer;
-  text-decoration: underline;
-  text-decoration-color: var(--text-underline-hover-color);
-  text-decoration-thickness: 1px;
-  text-underline-offset: 4px;
+  border-bottom: 1px solid currentColor;
 }

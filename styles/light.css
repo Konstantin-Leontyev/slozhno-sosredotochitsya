@@ -8,7 +8,7 @@
   --decor-title-color:#353430; 
   --decor-zone-color: #353430;
   /* background image links */
-  --cover-image-tablet: url(../images/cover-image-light.png);
+  --cover-image: url(../images/cover-image-light.png);
   --cover-image-desktop: url(../images/cover-image-light.png);
 }
 
@@ -27,7 +27,7 @@
     --decor-title-color:#353430; 
     --decor-zone-color: #353430;
     /* background image links */
-    --cover-image-tablet: url(../images/cover-image-light.png);
+    --cover-image: url(../images/cover-image-light.png);
     --cover-image-desktop: url(../images/cover-image-light.png);  
     }
 
