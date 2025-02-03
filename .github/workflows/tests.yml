@@ -28,6 +28,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: layout-compare
-          path: tests-selfmade-project-6-public/output-dark.jpg
+          path: tests-selfmade-project-6-public/outounts/output-dark.jpg
       - name: Show test results
         run: bash tests-selfmade-project-6-public/result.sh
