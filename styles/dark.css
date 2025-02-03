@@ -1,12 +1,12 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --bg-color:#000028;
+  --inverse-color:#DB00FF;
+  --title-color:#FF0070;
+  --text-color:#F1B2CE;
+  --accent-color:#FF0070;
+  --decor-title-color:#000028; 
+  --decor-zone-color:#FF0070;
+  /* background image links */
+  --cover-image: url(../images/cover-image-dark.png);
+  --cover-image-desktop: url(../images/cover-image.png);
 }
